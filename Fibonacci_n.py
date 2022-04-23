@@ -9,7 +9,7 @@ def fibonacci_naive(n):
 n = int(input("Enter number here: "))
 print(fibonacci_naive(n))
 
-print(f"All fibonacci numbers for {n} in descending order:")
+print(f"All fibonacci numbers for entered number '{n}' in descending order:")
 while n > 0:
     print(fibonacci_naive(n))
     n -= 1
